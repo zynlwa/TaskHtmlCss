@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    flex-direction: column;
+
+}
+.numbers{
+  display: flex;
+  flex-direction: row;
+}
+input[type="number"],
+input[type="text"] {
+  padding: 10px;
+  margin: 10px;
+  width: 400px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  
+}
+.buttons {
+  margin: 20px 0;
+}
+.btn {
+  padding: 10px 30px;
+  margin: 5px;
+  font-size: 16px;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.topla {
+  background-color: #3366ff;
+}
+
+.cixma {
+  background-color: #d93025;
+}
+
+.vurma {
+  background-color: #34a853;
+}
+
+.bolme {
+  background-color: #fbbc04;
+  color: #000;
+}
